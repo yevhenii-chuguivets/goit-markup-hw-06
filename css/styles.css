@@ -5,6 +5,7 @@ ol {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 button {
   cursor: pointer;
@@ -13,6 +14,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+
 }
 
 /* ==========     HEADER STYLE   ========== */
@@ -43,6 +45,7 @@ body {
 }
 .page-address {
   font-style: normal;
+
 }
 .address-list-link {
   font-weight: 400;
