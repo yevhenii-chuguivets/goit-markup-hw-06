@@ -11,7 +11,7 @@ button {
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #111;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -24,11 +24,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .nav-list-link {
   font-weight: 500;
@@ -49,7 +49,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .address-list-link:hover,
 .address-list-link:focus {
@@ -78,7 +77,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
 }
 
@@ -98,7 +96,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* ==========     SECTION OUR TEAM   ========== */
 .team-section {
@@ -107,11 +104,16 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
+.team-list {
+  background: #fff;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -126,15 +128,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 /* ==========     SECTION OUR PORTFOLIO   ========== */
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .portfolio-name {
@@ -148,7 +150,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /* ==========     FOOTER   ========== */
 .footer-box {
@@ -158,13 +159,13 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-logo-span {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
