@@ -114,12 +114,12 @@ img {
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 188px 0;
   background: #2e2f42;
 }
 .hero-section-container {
   display: flex;
   flex-direction: column;
-  padding: 188px 0;
 }
 .text-header {
   margin-left: auto;
@@ -270,6 +270,9 @@ img {
   margin-bottom: 72px;
   justify-content: center;
 }
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
@@ -289,6 +292,7 @@ img {
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 100px 0;
   background: #2e2f42;
 }
 .footer-logo {
@@ -313,7 +317,4 @@ img {
   display: block;
   width: 264px;
   flex-direction: column;
-}
-.section-footer {
-  padding: 100px 0;
 }
