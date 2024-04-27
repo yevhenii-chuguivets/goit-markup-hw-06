@@ -44,12 +44,12 @@ img {
   display: flex;
   justify-content: space-between;
   max-height: 72px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
   max-height: 72px;
 }
 .main-logo {
@@ -119,8 +119,7 @@ img {
 .hero-section-container {
   display: flex;
   flex-direction: column;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 .text-header {
   margin-left: auto;
@@ -157,8 +156,7 @@ img {
 }
 /* ==========     SECTION ADVANTEG   ========== */
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -257,6 +255,7 @@ img {
   padding: 32px 16px;
   border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-title {
@@ -314,4 +313,7 @@ img {
   display: block;
   width: 264px;
   flex-direction: column;
+}
+.section-footer {
+  padding: 100px 0;
 }
