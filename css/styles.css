@@ -40,11 +40,13 @@ img {
 }
 
 /* ==========     HEADER STYLE   ========== */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-header-container {
   display: flex;
   justify-content: space-between;
   max-height: 72px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .page-nav {
   display: flex;
