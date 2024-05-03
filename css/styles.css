@@ -402,6 +402,9 @@ img {
   align-items: baseline;
 }
 .footer-logo-container {
+  display: flex;
+  width: 264px;
+  height: 112px;
   margin-right: 120px;
 }
 .footer-logo {
