@@ -424,6 +424,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   display: block;
+  padding: 40px 32px;
   width: 264px;
   flex-direction: column;
 }
