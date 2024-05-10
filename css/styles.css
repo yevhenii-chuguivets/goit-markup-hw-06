@@ -490,6 +490,9 @@ img {
 }
 
 .footer-subscribe-input {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
@@ -580,9 +583,10 @@ img {
   background-color: #e7e9fc;
   border-radius: 50%;
   fill: #2e2f42;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.model-close-btn-box{
+.model-close-btn-box {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .model-close-btn-icon {
@@ -597,24 +601,23 @@ img {
   fill: #ffffff;
 }
 .data-head {
-
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 16px;
 }
 .data-form {
   width: 360px;
   height: 336px;
-  
 }
 .data-form-wrapper {
   width: 100%;
   min-height: 58px;
   margin-bottom: 8px;
 }
-.data-form-wrapper-comment{
+.data-form-wrapper-comment {
   margin-bottom: 16px;
 }
 .data-form-label {
@@ -699,7 +702,7 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
