@@ -568,23 +568,25 @@
         </div>
 
         <div class="footer-subscribe-wrapper">
-          <label for="subscribe" class="footer-subscribe-label"
-            >Subscribe</label
-          >
-          <div class="footer-subscribe-input-wrapper">
-            <input
-              class="footer-subscribe-input"
-              type="email"
-              name="subscribe"
-              id="subscribe"
-              placeholder="E-mail"
-            /><button type="submit" class="footer-subscribe-btn">
+          <p class="footer-subscribe-title">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label class="footer-subscribe-label">
+              <input
+                class="footer-subscribe-input"
+                type="email"
+                name="subscribe"
+                id="subscribe"
+                placeholder="E-mail"
+            /></label>
+
+            <button type="submit" class="footer-subscribe-btn">
               Subscribe
+              <svg class="footer-subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#send"></use>
+              </svg>
             </button>
-            <svg class="footer-subscribe-icon" width="24" height="24">
-              <use href="./images/icons.svg#send"></use>
-            </svg>
-          </div>
+            
+          </form>
         </div>
       </div>
     </footer>
@@ -603,13 +605,13 @@
 
         <form class="data-form">
           <div class="data-form-wrapper">
-            <label class="data-form-label" for="user-first-name">Name</label>
+            <label class="data-form-label" for="user-name">Name</label>
             <div class="data-form-input-wrapper">
               <input
                 class="data-form-input"
                 type="text"
-                name="user-first-name"
-                id="user-first-name"
+                name="user-name"
+                id="user-name"
                 pattern="[a-zA-Zа-яА-ЯіІїЇґҐ']+"
                 title="Yevhenii Chuhuivets"
                 required
@@ -651,7 +653,7 @@
               </svg>
             </div>
           </div>
-          <div class="data-form-wrapper">
+          <div class="data-form-wrapper data-form-wrapper-comment">
             <label class="data-form-label" for="user-comment">Comment</label>
             <textarea
               class="data-form-comment"
@@ -664,12 +666,12 @@
             <input
               class="data-form-checkbox-input visually-hidden"
               type="checkbox"
-              name="privacy-polic"
-              id="privacy-polic"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
               required
             />
-            <label class="data-form-checkbox-label" for="privacy-polic">
+            <label class="data-form-checkbox-label" for="user-privacy">
               <span class="data-form-custom-checkbox">
                 <svg
                   class="data-form-custom-checkbox-icon"
@@ -680,7 +682,7 @@
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="" class="checkbox-link">Privacy Polic</a>
+              <a href="" class="checkbox-link">Privacy Policy</a>
             </label>
           </div>
           <button class="backdrop-send-btn" type="submit">Send</button>
