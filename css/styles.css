@@ -486,8 +486,6 @@ img {
   display: flex;
   gap: 24px;
 }
-.footer-subscribe-label {
-}
 
 .footer-subscribe-input {
   font-size: 12px;
